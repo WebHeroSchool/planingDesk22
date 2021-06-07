@@ -1,0 +1,39 @@
+.main-content__title {
+       font-family: Roboto;
+}
+.wrapper {
+ margin: auto;
+ width: 80%;
+ border: dashed 1px red;
+}
+.header {
+ display: flex;
+ justify-content: space-between;
+}
+.logo, .menu {
+ display: inline-block;
+ border: dashed 1px red;
+}
+ .logo {
+  padding: 40px 0;
+ }
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.menu {
+ display: flex;
+ align-items: center;
+}
+.menu__item:last-child {
+ padding-right: 0;
+}
+font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+.logo {
+ padding: 40px 0;
+// font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+ width: 190px;
+ height: 35px;
+ border: dashed 1px red;
+ background: url('img/logo.svg');
+}
