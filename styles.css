@@ -16,6 +16,7 @@ body {
  height: 35px;
  border: dashed 1px red;
  background: url('img/logo.svg');
+ .logo - background-repeat: no-repeat;
 }
 .logo, .menu {
  display: inline-block;
