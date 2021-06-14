@@ -40,7 +40,7 @@ body {
 .menu__item_active::after {
   position: absolute;
   display:block;
-  content: "";
+  content:" ";
   left:0;
   width:68px;
   height:3px;
