@@ -8,8 +8,7 @@ body {
 .header {
  display: flex;
  justify-content: space-between;
- padding: 15px 0;
- margin-bottom: 100px;
+ margin-bottom: 130px;
 }
 .logo {
  padding: 40px 0;
@@ -32,12 +31,13 @@ body {
 }
 .menu__item {
  position: relative;
- margin-right: 26px;
- font: 500 22px/27px Roboto, arial, helvetica, sans-serif;
+ margin-right: 30px;
+ font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration:none;
  cursor: pointer;
  transition: opacity .5s;
+
 }
 .menu__item_active::after {
   position: absolute;
@@ -74,14 +74,15 @@ body {
 }
 .main__subtitle {
  margin: 0 0 41px 0;
- font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ font: 22px/27px Roboto, arial, helvetica, sans-serif;
+ max-width: 455px;
 }
 .main__button {
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 14.1px/14.9px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 14px 16px;
+  padding: 21px 53px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
