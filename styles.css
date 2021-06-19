@@ -70,7 +70,7 @@ body {
 }
 .main__title {
  margin: 0 0 40px 0;
- font: bold 66px/84px pt_serifbold, arial, helvetica, sans-serif;
+ font: bold 66px/83.9px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__subtitle {
  margin: 0 0 41px 0;
@@ -79,13 +79,15 @@ body {
 }
 .main__button {
   display: inline-block;
-  font: 14.1px/14.9px Roboto, arial, helvetica, sans-serif;
+  font: 18px/21.9px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 21px 53px;
+  padding: 16.9px 29.4px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  padding-right:29px;
+  padding-left: 30.4px;
 }
 .main__button:hover {
  opacity: .5;
