@@ -69,7 +69,7 @@ body {
 .main {
   padding: 77px 63% 100px 0;
   background: top right no-repeat url('img/mainImg.svg');
-  position:static;bottom: 25px;
+ padding-bottom: 150px;
 }
 .main__title {
  margin: 0 0 40px 0;
