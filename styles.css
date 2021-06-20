@@ -23,6 +23,7 @@ body {
 .menu {
  display: flex;
  align-items: center;
+ margin-right: 8px;
 }
 .menu__item:last-child {
  margin-right:0;
@@ -37,6 +38,7 @@ body {
  text-decoration:none;
  cursor: pointer;
  transition: opacity .5s;
+ margin-right: 28px;
 
 }
 .menu__item_active::after {
@@ -67,6 +69,7 @@ body {
 .main {
   padding: 77px 63% 100px 0;
   background: top right no-repeat url('img/mainImg.svg');
+  position:static;bottom: 25px;
 }
 .main__title {
  margin: 0 0 40px 0;
