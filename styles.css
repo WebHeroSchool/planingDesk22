@@ -20,6 +20,11 @@ body {
 .logo, .menu {
  display: inline-block;
 }
+#menu__toggle {
+  display: none;
+}
+.hamburger-menu {
+  display: none;
 .menu {
  display: flex;
  align-items: center;
@@ -62,6 +67,11 @@ body {
   margin: 0 0 40px 0;
   font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
 }
+.main__title-text_highlight {
+   background: #ECF3FF;
+   background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
+   margin-right: -15px;
+ }
 .main-content__subtitle {
   margin: 0 0 41px 0;
  font: 22px/27px Roboto, arial, helvetica, sans-serif;
@@ -97,4 +107,30 @@ body {
 }
 .main__title-text_highlight {
  background: #ECF3FF;
+}
+
+@media (max-width: 768px) {
+ .menu {
+ display: none;
+ }
+ .header {
+ margin-bottom: 28px;
+ }
+ .main {
+ text-align: center;
+ padding: 74% 0 0;
+ background-size: 74%;
+ background-position: top center;
+ }
+ .main__title {
+ margin-bottom: 44px;
+ font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+ }
+ .main__subtitle {
+ margin-bottom: 25px;
+ font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+ }
+ .main__button {
+ font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+ }
 }
