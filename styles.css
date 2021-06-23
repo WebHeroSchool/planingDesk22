@@ -25,6 +25,7 @@ body {
 }
 .hamburger-menu {
   display: none;
+}
 .menu {
  display: flex;
  align-items: center;
