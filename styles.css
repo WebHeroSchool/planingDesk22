@@ -114,6 +114,11 @@ body {
  }
  .logo2{
  background: url('img/logo2.svg');
+ position: absolute;
+ width: 36px;
+ height: 35px;
+ left: 24px;
+ top: 24px;
  }
  .main-content {
  text-align: center;
@@ -136,6 +141,10 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
+  width: 25px;
+  height: 17px;
+  left:326px;
+  top:32px;
   cursor: pointer;
   z-index: 1;
 }
