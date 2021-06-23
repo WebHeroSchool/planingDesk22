@@ -64,10 +64,6 @@ body {
 .menu__item:hover:after,.menu__item_active:after {
   opacity: 1;
 }
-.main-content__title {
-  margin: 0 0 40px 0;
-  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
-}
 .main__title-text_highlight {
    background: #ECF3FF;
    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
@@ -77,7 +73,7 @@ body {
   margin: 0 0 41px 0;
  font: 22px/27px Roboto, arial, helvetica, sans-serif;
 }
-.main {
+.main-content {
   padding: 77px 63% 100px 0;
   background: top -3px right 5px no-repeat url('img/mainImg.svg');
  padding-bottom: 150px;
@@ -207,4 +203,5 @@ body {
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
+}
 }
