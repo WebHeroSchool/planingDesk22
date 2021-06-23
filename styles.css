@@ -99,8 +99,12 @@ body {
  opacity: .5;
 }
 @media (max-width: 768px) {
+  .hamburger-menu {
+   display: block;
+  }
  .menu {
  display: none;
+ position: absolute;
  }
  .header {
  margin-bottom: 28px;
@@ -126,10 +130,11 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
+  width: 25px;
+  height: 17px;
+  left: 326px;
+  top: 32px;
+  background: #0056EC;
   cursor: pointer;
   z-index: 1;
 }
