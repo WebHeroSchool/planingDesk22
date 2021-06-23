@@ -69,10 +69,6 @@ body {
    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
    margin-right: -15px;
  }
-.main-content__subtitle {
-  margin: 0 0 41px 0;
- font: 22px/27px Roboto, arial, helvetica, sans-serif;
-}
 .main-content {
   padding: 77px 63% 100px 0;
   background: top -3px right 5px no-repeat url('img/mainImg.svg');
@@ -102,10 +98,6 @@ body {
 .main__button:hover {
  opacity: .5;
 }
-.main__title-text_highlight {
- background: #ECF3FF;
-}
-
 @media (max-width: 768px) {
  .menu {
  display: none;
