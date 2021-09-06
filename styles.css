@@ -102,6 +102,20 @@ body {
   .hamburger-menu {
    display: block;
   }
+  .main__title {
+    margin-bottom: 135px;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+  }
+  .main__subtitle {
+    margin-bottom: 14px;
+    font: 500 17px/18.6px Roboto, arial, helvetica, sans-serif;
+  }
+}
+.main-content {
+  text-align: center;
+  padding: 107% 0 0;
+  background-position: top center;
+}
  .menu {
  display: none;
  position: absolute;
